@@ -1,0 +1,81 @@
+#scb-wrapper a {
+  color: #1b346c !important;
+}
+
+body.et_includes_sidebar .pricing-table {
+  width: 85% !important;
+}
+#shaon-pricing-table.skin-blue .wppt-package-info {
+background-color: #1b346c !important;
+}
+
+@media screen and (max-width: 960px) {
+	table {
+		
+	}
+}
+
+.et_color_scheme_blue #home-tab-area > ul {
+  border-bottom-color: #000 !important;
+}
+
+.js #top-navigation {
+margin-top: 40px !important;
+}
+#slogan {
+float:right !important;
+}
+#featured .slide .description {
+visibility: hidden !important;
+padding:0px !important;
+}
+#featured .slide img {
+width:100% !important;
+height: auto !important;
+}
+#featured {
+padding: 0px !important;
+}
+#home-tab-area {
+width: 100% !important;
+}
+#section-area {
+padding: 50px 50px 0px 50px !important;
+}
+#footer-bottom {
+background-color: #1b346c !important;
+
+}
+
+#footer-bottom li a {
+color: #ffffff !important;
+}
+
+.sidebar{
+display: none !important;
+}
+
+#left-area{
+width: 100% !important;
+
+}
+#breadcrumbs {
+background-color: #1b346c !important;
+  text-shadow: none !important;
+}
+#breadcrumbs a {
+color: #ffffff !important;
+}
+/*** Remove title from only home page ***/
+.home .page-header {
+display: none;
+}
+.home #breadcrumbs {
+    display: none;
+} /*** Remove title from only home page ***/
+.home .page-header {
+display: none;
+}
+.home p#breadcrumbs {
+  display: none;
+}
