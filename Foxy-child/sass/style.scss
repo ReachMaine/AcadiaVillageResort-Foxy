@@ -12,7 +12,12 @@
 @import "partials/colors";
 @import "partials/basics";
 @import "partials/gform";
+@import "partials/rmm_buttons";
 
-
+.foxy-child-topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
 @import "partials/media"; // keep at bottom;

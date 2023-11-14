@@ -1,0 +1,73 @@
+// custom styles by Reach Maine Marketing use as classes on button  elements
+
+// et-buttons embeded in posts or events
+.textwidget,
+.et_pb_module.et_pb_post_content, // post
+.et_pb_module.et_pb_posts article.et_pb_post, // blog module
+article.et_pb_post .entry-content // single post.
+{
+
+  .big-button, .small-button { // all buttons 
+    text-transform: uppercase;
+    //font-family: 'AmicaPro-Regular',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+    font-weight: normal!important;
+    padding: .3em 15px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    background-image: none;
+    border: 0px;
+    letter-spacing: 1px;
+  }
+  a.big-button { // big buttons
+    font-size: 16px;
+    padding: .4em 25px; // give more padding 
+  }
+  a.smallblack,
+  a.bigblack {
+    background-color: black;
+    color: white;
+    
+  }
+  a.bigblue,
+  a.smallblue {
+    //background-color: $phc-blue;
+    color: white!important;
+  }
+  a.bigblue:hover,
+  a.smallblue:hover {
+    //background-color: $phc-blue-hover;
+  }
+  a.biggreen,
+  a.smallgreen {
+    color: white!important;  
+    // background-color: $phc-green;
+  }
+  a.biggreen:hover,
+  a.smallgreen:hover {
+    // background-color: $phc-green-hover;
+  }
+  a.bigred,
+  a.smallred {
+    color: white!important;  
+    background-color: $avr-red;
+  }
+  a.bigred:hover,
+  a.smallred:hover {
+    background-color: $form-button-hover-bkg;
+    color: white!important;
+  }
+
+  a.bigsilver,
+  a.smallsilver {
+    background-color: #f1f1f1; // light grey;
+    color: black!important;
+    text-shadow: none;
+    font-weight: 500!important;
+  }
+
+  a.bigsilver:hover,
+  a.smallsilver:hover {
+    background-color: #d5d5d5; // med grey
+  }
+}

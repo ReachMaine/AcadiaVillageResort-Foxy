@@ -36,8 +36,8 @@ sup {
 .et_pb_post a.bigblue:hover,
 .tribe-events-content a.bigblue:hover {
   color: white !important;
-  background-color: #ed8457 !important;
-  background: #ed8457 !important; }
+  background-color: #2d4dbf !important;
+  background: #2d4dbf !important; }
 
 /* gravity forms styling */
 .gform_wrapper .gform_fields .gfield input,
@@ -61,8 +61,105 @@ sup {
     text-transform: uppercase; }
   .gform_wrapper .gform_footer input[type=button]:hover,
   .gform_wrapper .gform_footer input[type=submit]:hover {
-    background-color: #ed8457;
+    background-color: #2d4dbf;
     color: white; }
+
+.textwidget .big-button, .textwidget .small-button,
+.et_pb_module.et_pb_post_content .big-button,
+.et_pb_module.et_pb_post_content .small-button,
+.et_pb_module.et_pb_posts article.et_pb_post .big-button,
+.et_pb_module.et_pb_posts article.et_pb_post .small-button,
+article.et_pb_post .entry-content .big-button,
+article.et_pb_post .entry-content .small-button {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: normal !important;
+  padding: .3em 15px;
+  border-radius: 0px;
+  margin-bottom: 20px;
+  background-image: none;
+  border: 0px;
+  letter-spacing: 1px; }
+.textwidget a.big-button,
+.et_pb_module.et_pb_post_content a.big-button,
+.et_pb_module.et_pb_posts article.et_pb_post a.big-button,
+article.et_pb_post .entry-content a.big-button {
+  font-size: 16px;
+  padding: .4em 25px; }
+.textwidget a.smallblack,
+.textwidget a.bigblack,
+.et_pb_module.et_pb_post_content a.smallblack,
+.et_pb_module.et_pb_post_content a.bigblack,
+.et_pb_module.et_pb_posts article.et_pb_post a.smallblack,
+.et_pb_module.et_pb_posts article.et_pb_post a.bigblack,
+article.et_pb_post .entry-content a.smallblack,
+article.et_pb_post .entry-content a.bigblack {
+  background-color: black;
+  color: white; }
+.textwidget a.bigblue,
+.textwidget a.smallblue,
+.et_pb_module.et_pb_post_content a.bigblue,
+.et_pb_module.et_pb_post_content a.smallblue,
+.et_pb_module.et_pb_posts article.et_pb_post a.bigblue,
+.et_pb_module.et_pb_posts article.et_pb_post a.smallblue,
+article.et_pb_post .entry-content a.bigblue,
+article.et_pb_post .entry-content a.smallblue {
+  color: white !important; }
+.textwidget a.biggreen,
+.textwidget a.smallgreen,
+.et_pb_module.et_pb_post_content a.biggreen,
+.et_pb_module.et_pb_post_content a.smallgreen,
+.et_pb_module.et_pb_posts article.et_pb_post a.biggreen,
+.et_pb_module.et_pb_posts article.et_pb_post a.smallgreen,
+article.et_pb_post .entry-content a.biggreen,
+article.et_pb_post .entry-content a.smallgreen {
+  color: white !important; }
+.textwidget a.bigred,
+.textwidget a.smallred,
+.et_pb_module.et_pb_post_content a.bigred,
+.et_pb_module.et_pb_post_content a.smallred,
+.et_pb_module.et_pb_posts article.et_pb_post a.bigred,
+.et_pb_module.et_pb_posts article.et_pb_post a.smallred,
+article.et_pb_post .entry-content a.bigred,
+article.et_pb_post .entry-content a.smallred {
+  color: white !important;
+  background-color: #ff7100; }
+.textwidget a.bigred:hover,
+.textwidget a.smallred:hover,
+.et_pb_module.et_pb_post_content a.bigred:hover,
+.et_pb_module.et_pb_post_content a.smallred:hover,
+.et_pb_module.et_pb_posts article.et_pb_post a.bigred:hover,
+.et_pb_module.et_pb_posts article.et_pb_post a.smallred:hover,
+article.et_pb_post .entry-content a.bigred:hover,
+article.et_pb_post .entry-content a.smallred:hover {
+  background-color: #2d4dbf;
+  color: white !important; }
+.textwidget a.bigsilver,
+.textwidget a.smallsilver,
+.et_pb_module.et_pb_post_content a.bigsilver,
+.et_pb_module.et_pb_post_content a.smallsilver,
+.et_pb_module.et_pb_posts article.et_pb_post a.bigsilver,
+.et_pb_module.et_pb_posts article.et_pb_post a.smallsilver,
+article.et_pb_post .entry-content a.bigsilver,
+article.et_pb_post .entry-content a.smallsilver {
+  background-color: #f1f1f1;
+  color: black !important;
+  text-shadow: none;
+  font-weight: 500 !important; }
+.textwidget a.bigsilver:hover,
+.textwidget a.smallsilver:hover,
+.et_pb_module.et_pb_post_content a.bigsilver:hover,
+.et_pb_module.et_pb_post_content a.smallsilver:hover,
+.et_pb_module.et_pb_posts article.et_pb_post a.bigsilver:hover,
+.et_pb_module.et_pb_posts article.et_pb_post a.smallsilver:hover,
+article.et_pb_post .entry-content a.bigsilver:hover,
+article.et_pb_post .entry-content a.smallsilver:hover {
+  background-color: #d5d5d5; }
+
+.foxy-child-topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
 
 /* **** media **** */
 @media all and (max-width: 980px) {
