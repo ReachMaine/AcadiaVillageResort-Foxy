@@ -39,6 +39,10 @@ sup {
   background-color: #2d4dbf !important;
   background: #2d4dbf !important; }
 
+nav ul li.avr-menu-hilite .main_text {
+  background-color: #ebebeb;
+  font-weight: normal; }
+
 /* gravity forms styling */
 .gform_wrapper .gform_fields .gfield input,
 .gform_wrapper .gform_fields .gfield textarea {

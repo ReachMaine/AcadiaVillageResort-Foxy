@@ -44,3 +44,11 @@ sup {
     background: $form-button-hover-bkg!important;
   }
 }
+
+nav ul li.avr-menu-hilite {
+  .main_text {
+    background-color: $avr-lt-grey;
+    font-weight: normal;
+
+  }
+}
