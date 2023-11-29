@@ -31,8 +31,8 @@ sup {
   border: 1px solid white; }
 .et_pb_post a.bigblue,
 .tribe-events-content a.bigblue {
-  background-color: #048785 !important;
-  background: #048785 !important; }
+  background-color: #1b346c !important;
+  background: #1b346c !important; }
 .et_pb_post a.bigblue:hover,
 .tribe-events-content a.bigblue:hover {
   color: white !important;
@@ -46,26 +46,27 @@ nav ul li.avr-menu-hilite .main_text {
 /* gravity forms styling */
 .gform_wrapper .gform_fields .gfield input,
 .gform_wrapper .gform_fields .gfield textarea {
-  background-color: #f8f6f4;
+  background-color: #f8f6f4 !important;
   font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
-  border: 0px; }
+  border: 1px;
+  border-color: white; }
 .gform_wrapper .gform_footer {
   display: flex;
   justify-content: flex-end; }
   .gform_wrapper .gform_footer input[type=button],
   .gform_wrapper .gform_footer input[type=submit] {
-    color: white;
-    padding: 5px 16px;
+    color: white !important;
+    padding: 5px 16px !important;
     border: 2px solid white;
     font-size: 20px !important;
     text-align: center;
     cursor: pointer;
-    background-color: #048785;
+    background-color: #1b346c !important;
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
     text-transform: uppercase; }
   .gform_wrapper .gform_footer input[type=button]:hover,
   .gform_wrapper .gform_footer input[type=submit]:hover {
-    background-color: #2d4dbf;
+    background-color: #2d4dbf !important;
     color: white; }
 
 .textwidget .big-button, .textwidget .small-button,

@@ -4,9 +4,10 @@
 		.gfield {
 				input,
 				textarea {
-					background-color: #f8f6f4;
+					background-color: #f8f6f4!important; // need important to override Foxy
 					font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
-					border: 0px;
+					border: 1px;
+					border-color: white;
 
 				}
 			}
@@ -18,20 +19,20 @@
 
 		input[type=button],
 		input[type=submit] { //  Make submit look like buttons on the site.
-				color: $form-button-color;
-		    padding: 5px 16px;
-				border: 2px solid $form-button-border;
+			color: $form-button-color!important;
+		    padding: 5px 16px!important;
+			border: 2px solid $form-button-border!important;
 		    font-size: 20px!important;
 		    text-align: center;
 		    cursor: pointer;
-			  background-color: $form-button-bkg;
-				font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
-				text-transform: uppercase;
+			background-color: $form-button-bkg!important;
+			font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+			text-transform: uppercase;
 			  //line-height: 1.7em;
 			}
 			input[type=button]:hover,
 			input[type=submit]:hover {
-				background-color: $form-button-hover-bkg;
+				background-color: $form-button-hover-bkg!important;
 				color: $form-button-hover-color;
 			}
 	} // gform footer
